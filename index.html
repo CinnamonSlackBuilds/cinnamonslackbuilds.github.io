@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Cinnamon SlackBuilds</title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet'
+type='text/css'>
+</head>
+
+<body>
+
+   <!-- Begin Wrapper -->
+   <div id="wrapper">
+     <h2>Cinnamon SlackBuilds</h2>
+         <!-- Begin Content -->
+         <div id="content">
+           <p>These SlackBuilds are intended to provide a means for a user to
+           build and install the <a href="http://developer.linuxmint.com/projects.html">Cinnamon Desktop
+             Environment</a> on <a
+             href="http://www.slackware.com">Slackware Linux</a>.  Some of the goals
+           of the project are:</p>
+           <ol>
+             <li>Do not replace any stock Slackware packages unless
+             absolutely necessary (thus far, no packages need to be replaced);</li>
+             <li>Keep the upstream default theme and settings;</li>
+             <li>Try and minimize outside dependencies as much as possible;
+             and</li>
+             <li>Make it easy to build and install by using standard style
+             SlackBuild scripts and slack-desc and doinst.sh files that most
+             Slackware users have become familiar with by using the <a
+               href="https://www.slackbuilds.org">SlackBuilds</a> repository.</li></ol>
+           <p>The scripts are hosted in a <a
+             href="https://github.com/CinnamonSlackBuilds/csb">Git repo</a> so feel
+           free to test and offer suggestions, improvements, patches, etc.
+	   Here are some obligatory screenshots of Cinnamon 3.0 with its default
+           theme and background running on Slackware64-14.2:</p>
+           <div id="screenshots">
+             <a href="images/csb1.png"><img class="image"
+               src="images/csb1-thumbnail.png" /></a>
+             <a href="images/csb2.png"><img class="image"
+               src="images/csb2-thumbnail.png" /></a>
+             <a href="images/csb3.png"><img class="image"
+               src="images/csb3-thumbnail.png" /></a>
+             <a href="images/csb4.png"><img class="image"
+               src="images/csb4-thumbnail.png" /></a>
+           </div>
+	   <p>FAQ:</p>
+           <ul>
+           <li>Q: Are there binary packages?</li><li>A: Yes, there are
+             packages for Slackware 14.1 x86 and x86_64 available at:
+             <a
+               href="http://slackware.uk/csb">http://slackware.uk/csb</a>.  It is still advisable to
+             clone the git repo and build the packages yourself but these
+             packages are available for your convenience.</li>
+           <li>Q: How do i manage binary packages automatically?</li>
+	   <li>A: You can use <a href="http://slakfinder.org/slackpkg+.html">slackpkg+</a>
+	   to manage binary packages. Please see
+           <a href="http://slakfinder.org/slackpkg+/src/repositories.txt">supported repositories</a>.</li>
+	   <li>Q: Is it possible to try out CSB in a live session for trial?</li>
+	   <li>A: Please have a look on <a href="http://docs.slackware.com/slackware:liveslak">
+	   AlienBOB's Slackware Live</a> project that includes iso2usb.sh script to include custom
+	   packages, including Cinnamon Desktop to produce a Slackware live ISO.</li>
+           <li>Q: Do the scripts build and run on -current?</li><li>A: Yes,
+           based on our testing. These scripts are developed on
+           Slackware-current machines but binary packages will target for stable releases.
+	   Please be sure to read the BUILD_ORDER, NOTES, KNOWN_ISSUES, and README documents as these
+           are updated to note any potential problems or issues.</li>
+           <li>Q: So -current is officially supported?</li>
+           <li>A: Not exactly.  Since Slackware -current is a moving target,
+           there is no guarantee that Cinnamon SlackBuilds will build or work properly
+           on Slackware -current.  Only a full installation of the latest
+           Slackware release is officially supported.</li>
+           <li>Q: How long does it take to build the packages?</li>
+           <li>A: All the packages should not take too much time to build
+           on any reasonably modern machine.</li>
+           <li>Q: Who is behind Cinnamon SlackBuilds project?</li>
+           <li>A: Willy Sudiarto Raharjo.  Please post
+           bug reports at the Github repo or send us an email at
+           willysr@slackware-id.org</li>	   
+         </ul>
+	</div>
+		 <!-- End Content -->
+                 <div id="footer">Not affiliated with or endorsed by Slackware
+                 Linux, Patrick J. Volkerding, or the SlackBuilds.org project.
+               Slackware is a registered trademark of Patrick J. Volkerding
+               and Linux is a registered trademark of Linus Torvalds.  Use at
+             your own risk, YMMV, and all that.</div>
+   </div>
+   <!-- End Wrapper -->
+</body>
+</html>
